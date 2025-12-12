@@ -1,7 +1,5 @@
-# Adicione estas linhas ao final do .gitignore existente
 cat >> .gitignore << 'EOF'
 
-# Eclipse
 .metadata/
 bin/
 tmp/
@@ -17,14 +15,12 @@ local.properties
 .project
 .buildpath
 
-# VS Code
 .vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# Outros
 *.class
 *.log
 EOF
